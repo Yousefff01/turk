@@ -1,0 +1,59 @@
+:root {
+  --acceptButton-size: 12px;
+  --rejectButton-size: 12px;
+  --rejectButton-padding: 15px 50px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* yatay ortala */
+  align-items: center; /* dikey ortala */
+  flex-direction: column; /* alt alta diz */
+  gap: 20px; /* aralarına boşluk */
+}
+
+#buttons {
+  flex-direction: column;
+}
+
+#kurt {
+  font-size: var(--acceptButton-size);
+  padding: 15px 50px;
+  transition: font-size 0.3s;
+  background-color: green;
+  color: #fff;
+  border-radius: 8px;
+}
+
+#turk {
+  font-size: var(--rejectButton-size);
+  padding: var(--rejectButton-padding);
+  transition: font-size 0.3s;
+  background-color: red;
+  color: #fff;
+  border-radius: 8px;
+}
+
+#gif {
+  width: 300px;
+  border-radius: 8px;
+}
+
+h1 {
+  display: none;
+}
+
+#turkImg {
+  width: 500px;
+  border-radius: 8px;
+  display: none;
+}
+
+#kurtImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  display: none;
+}
