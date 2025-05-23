@@ -18,7 +18,7 @@ turkButton.addEventListener("click", () => {
   }
 });
 kurtButton.addEventListener("click", () => {
-  const bodyChildren = document.body.children;
+/*   const bodyChildren = document.body.children;
 
   for (let i = 0; i < bodyChildren.length; i++) {
     const element = bodyChildren[i];
@@ -30,4 +30,4 @@ kurtButton.addEventListener("click", () => {
       element.style.display = "flex";
     }
   }
-});
+ */});
